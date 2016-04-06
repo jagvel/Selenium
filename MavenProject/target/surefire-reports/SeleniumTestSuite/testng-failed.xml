@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SeleniumTestSuite]">
+  <parameter name="password" value="user"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="userName" value="user"/>
+  <parameter name="url" value="http://newtours.demoaut.com/"/>
+  <test name="Testing login on mercury application using Firefox">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="url" value="http://newtours.demoaut.com/"/>
+    <classes>
+      <class name="com.mercury.testcases.RegisterTest"/>
+    </classes>
+  </test> <!-- Testing login on mercury application using Firefox -->
+</suite> <!-- Failed suite [SeleniumTestSuite] -->

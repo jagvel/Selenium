@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SeleniumTestSuite">
+	<parameter name="userName" value="user"></parameter>
+	<parameter name="password" value="user"></parameter>
+
+	<test name="Testing login on mercury application using Firefox">
+		<parameter name="browser" value="Firefox"></parameter>
+		<parameter name="url" value="http://newtours.demoaut.com/"></parameter>
+
+		<classes>
+			<class name="com.mercury.testcases.RegisterTest" />
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SeleniumTestSuite">
+              <span class="suite-name border-passed">SeleniumTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SeleniumTestSuite">
+                    <span>E:\Selenium-Workspace\MavenProject\src\test\resources\Testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SeleniumTestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SeleniumTestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SeleniumTestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SeleniumTestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SeleniumTestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SeleniumTestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SeleniumTestSuite" class="hide-methods passed suite-SeleniumTestSuite"> (hide)</a> <!-- hide-methods passed suite-SeleniumTestSuite -->
+                      <a href="#" panel-name="suite-SeleniumTestSuite" class="show-methods passed suite-SeleniumTestSuite"> (show)</a> <!-- show-methods passed suite-SeleniumTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SeleniumTestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumTestSuite" title="com.mercury.testcases.RegisterTest" hash-for-method="registerUser">registerUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SeleniumTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SeleniumTestSuite" class="panel SeleniumTestSuite">
+          <div class="suite-SeleniumTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mercury.testcases.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser">
+                  </a> <!-- registerUser -->
+                  <span class="method-name">registerUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SeleniumTestSuite-class-passed -->
+        </div> <!-- panel SeleniumTestSuite -->
+        <div panel-name="test-xml-SeleniumTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Selenium-Workspace\MavenProject\src\test\resources\Testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;SeleniumTestSuite&quot;&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;user&quot;/&gt;
+  &lt;parameter name=&quot;userName&quot; value=&quot;user&quot;/&gt;
+  &lt;test name=&quot;Testing login on mercury application using Firefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://newtours.demoaut.com/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mercury.testcases.RegisterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing login on mercury application using Firefox --&gt;
+&lt;/suite&gt; &lt;!-- SeleniumTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SeleniumTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SeleniumTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Testing login on mercury application using Firefox (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SeleniumTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SeleniumTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SeleniumTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SeleniumTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SeleniumTestSuite');
+function tableData_SeleniumTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'registerUser')
+data.setCell(0, 2, 'com.mercury.testcases.RegisterTest')
+data.setCell(0, 3, 61021);
+window.suiteTableData['SeleniumTestSuite']= { tableData: data, tableDiv: 'times-div-SeleniumTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-SeleniumTestSuite">
+              </div> <!-- times-div-SeleniumTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SeleniumTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SeleniumTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">registerUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">WebElement: [[FirefoxDriver: firefox on WINDOWS (be62e331-fab9-435b-805f-6a5b004d870b)] -> name: firstName] displayed and enabled</span>
+                <span class="reporter-method-output">WebElement: [[FirefoxDriver: firefox on WINDOWS (be62e331-fab9-435b-805f-6a5b004d870b)] -> name: lastName] displayed and enabled</span>
+                <span class="reporter-method-output">WebElement: [[FirefoxDriver: firefox on WINDOWS (be62e331-fab9-435b-805f-6a5b004d870b)] -> name: phone] displayed and enabled</span>
+                <span class="reporter-method-output">WebElement: [[FirefoxDriver: firefox on WINDOWS (be62e331-fab9-435b-805f-6a5b004d870b)] -> name: userName] displayed and enabled</span>
+                <span class="reporter-method-output">WebElement: [[FirefoxDriver: firefox on WINDOWS (be62e331-fab9-435b-805f-6a5b004d870b)] -> name: address1] displayed and enabled</span>
+                <span class="reporter-method-output">WebElement: [[FirefoxDriver: firefox on WINDOWS (be62e331-fab9-435b-805f-6a5b004d870b)] -> name: city] displayed and enabled</span>
+                <span class="reporter-method-output">WebElement: [[FirefoxDriver: firefox on WINDOWS (be62e331-fab9-435b-805f-6a5b004d870b)] -> name: state] displayed and enabled</span>
+                <span class="reporter-method-output">WebElement: [[FirefoxDriver: firefox on WINDOWS (be62e331-fab9-435b-805f-6a5b004d870b)] -> name: postalCode] displayed and enabled</span>
+                <span class="reporter-method-output">Option:INDIAfound in the dropdown list:ALBANIA
+ALGERIA
+AMERICAN SAMOA
+ANDORRA
+ANGOLA
+ANGUILLA
+ANTARCTICA
+ANTIGUA AND BARBUDA
+ARGENTINA
+ARMENIA
+ARUBA
+ASHMORE AND CARTIER ISLANDS
+AUSTRALIA
+AUSTRIA
+AZERBAIJAN
+BAHAMAS
+BAHRAIN
+BAKER ISLAND
+BANGLADESH
+BARBADOS
+BASSA DE INDIA
+BELARUS
+BELGIUM
+BELIZE
+BENIN
+BERMUDA
+BHUTAN
+BOLIVIA
+BOSNIA AND HERZEGOVINA
+BOTSWANA
+BOUVET ISLAND
+BRAZIL
+BRITISH INDIAN OCEAN TERRITORY
+BRITISH VIRGIN ISLANDS
+BRUNEI
+BULGARIA
+BURKINA FASO
+BURMA
+BURUNDI
+CAMBODIA
+CAMEROON
+CANADA
+CAPE VERDE
+CAYMAN ISLANDS
+CENTRAL AFRICAN REPUBLIC
+CHAD
+CHILE
+CHINA
+CHRISTMAS ISLAND
+CLIPPERTON ISLAND
+COCOS (KEELING) ISLANDS
+COLOMBIA
+COMOROS
+CONGO
+COOK ISLANDS
+CORAL SEA ISLANDS
+COSTA RICA
+COTE D'IVOIRE
+CROATIA
+CUBA
+CYPRUS
+CZECH REPUBLIC
+DENMARK
+DJIBOUTI
+DOMINICA
+DOMINICAN REPUBLIC
+ECUADOR
+EGYPT
+EL SALVADOR
+EQUATORIAL GUINEA
+ERITREA
+ESTONIA
+ETHIOPIA
+EUROPA ISLAND
+FALKLAND ISLANDS
+FAROE ISLANDS
+FIJI
+FINLAND
+FRANCE
+FRENCH GUIANA
+FRENCH POLYNESIA
+FRENCH SOUTHERN AND ANTARCTIC LANDS
+GABON
+GAMBIA, THE
+GAZA STRIP
+GEORGIA
+GERMANY
+GHANA
+GIBRALTAR
+GLORIOSO ISLANDS
+GREECE
+GREENLAND
+GRENADA
+GUADELOUPE
+GUAM
+GUATEMALA
+GUERNSEY
+GUINEA
+GUINEA-BISSAU
+GUYANA
+HAITI
+HEARD ISLAND AND MCDONALD ISLANDS
+HONDURAS
+HONG KONG
+HOWLAND ISLAND
+HUNGARY
+ICELAND
+INDIA
+INDONESIA
+IRAN
+IRAQ
+IRELAND
+ISRAEL
+ITALY
+JAMAICA
+JAN MAYEN
+JAPAN
+JARVIS ISLAND
+JERSEY
+JOHNSTON ATOLL
+JORDAN
+JUAN DE NOVA ISLAND
+KAZAKHSTAN
+KENYA
+KINGMAN REEF
+KIRIBATI
+KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF
+KOREA, REPUBLIC OF
+KUWAIT
+KYRGYZSTAN
+LAOS
+LATVIA
+LEBANON
+LESOTHO
+LIBERIA
+LIBYA
+LIECHTENSTEIN
+LITHUANIA
+LUXEMBOURG
+MACAU
+MACEDONIA, FORMER REPUBLIC OF
+MADAGASCAR
+MALAWI
+MALAYSIA
+MALDIVES
+MALI
+MALTA
+MAN, ISLE OF
+MARSHALL ISLANDS
+MARTINIQUE
+MAURITANIA
+MAURITIUS
+MAYOTTE
+MEXICO
+MICRONESIA
+MIDWAY ISLANDS
+MOLDOVA
+MONACO
+MONGOLIA
+MONTENEGRO
+MONTSERRAT
+MOROCCO
+MOZAMBIQUE
+NAMIBIA
+NAURU
+NAVASSA ISLAND
+NEPAL
+NETHERLANDS
+NETHERLANDS ANTILLES
+NEW CALEDONIA
+NEW ZEALAND
+NICARAGUA
+NIGER
+NIGERIA
+NIUE
+NO MANS LAND
+NORFOLK ISLAND
+NORTHERN MARIANA ISLANDS
+NORWAY
+OCEANS
+OMAN
+PAKISTAN
+PALMYRA ATOLL
+PANAMA
+PAPUA NEW GUINEA
+PARACEL ISLANDS
+PARAGUAY
+PERU
+PHILIPPINES
+PITCAIRN ISLANDS
+POLAND
+PORTUGAL
+PUERTO RICO
+QATAR
+REUNION
+ROMANIA
+RUSSIA
+RWANDA
+SAN MARINO
+SAO TOME AND PRINCIPE
+SAUDI ARABIA
+SENEGAL
+SERBIA
+SEYCHELLES
+SIERRA LEONE
+SINGAPORE
+SLOVAKIA
+SLOVENIA
+SOLOMON ISLANDS
+SOMALIA
+SOUTH AFRICA
+SOVIET UNION
+SPAIN
+SPRATLY ISLANDS
+SRI LANKA
+ST. HELENA
+ST. KITTS AND NEVIS
+ST. LUCIA
+ST. PIERRE AND MIQUELON
+ST. VINCENT AND THE GRENADINES
+SUDAN
+SURINAME
+SVALBARD
+SWAZILAND
+SWEDEN
+SWITZERLAND
+SYRIA
+TAIWAN
+TAJIKISTAN
+TANZANIA, UNITED REPUBLIC OF
+THAILAND
+TOGO
+TOKELAU
+TONGA
+TRINIDAD AND TOBAGO
+TROMELIN ISLAND
+TUNISIA
+TURKEY
+TURKMENISTAN
+TURKS AND CAICOS ISLANDS
+TUVALU
+UGANDA
+UKRAINE
+UNDERSEA FEATURES
+UNITED ARAB EMIRATES
+UNITED KINGDOM
+UNITED STATES
+URUGUAY
+UZBEKISTAN
+VANUATU
+VATICAN CITY
+VENEZUELA
+VIETNAM
+VIRGIN ISLANDS
+WAKE ISLAND
+WALLIS AND FUTUNA
+WEST BANK
+WESTERN SAHARA
+WESTERN SAMOA
+YEMEN
+YUGOSLAVIA
+ZAIRE
+ZAMBIA
+ZIMBABWE</span>
+                <span class="reporter-method-output">Option:ANGOLAfound in the dropdown list:ALBANIA
+ALGERIA
+AMERICAN SAMOA
+ANDORRA
+ANGOLA
+ANGUILLA
+ANTARCTICA
+ANTIGUA AND BARBUDA
+ARGENTINA
+ARMENIA
+ARUBA
+ASHMORE AND CARTIER ISLANDS
+AUSTRALIA
+AUSTRIA
+AZERBAIJAN
+BAHAMAS
+BAHRAIN
+BAKER ISLAND
+BANGLADESH
+BARBADOS
+BASSA DE INDIA
+BELARUS
+BELGIUM
+BELIZE
+BENIN
+BERMUDA
+BHUTAN
+BOLIVIA
+BOSNIA AND HERZEGOVINA
+BOTSWANA
+BOUVET ISLAND
+BRAZIL
+BRITISH INDIAN OCEAN TERRITORY
+BRITISH VIRGIN ISLANDS
+BRUNEI
+BULGARIA
+BURKINA FASO
+BURMA
+BURUNDI
+CAMBODIA
+CAMEROON
+CANADA
+CAPE VERDE
+CAYMAN ISLANDS
+CENTRAL AFRICAN REPUBLIC
+CHAD
+CHILE
+CHINA
+CHRISTMAS ISLAND
+CLIPPERTON ISLAND
+COCOS (KEELING) ISLANDS
+COLOMBIA
+COMOROS
+CONGO
+COOK ISLANDS
+CORAL SEA ISLANDS
+COSTA RICA
+COTE D'IVOIRE
+CROATIA
+CUBA
+CYPRUS
+CZECH REPUBLIC
+DENMARK
+DJIBOUTI
+DOMINICA
+DOMINICAN REPUBLIC
+ECUADOR
+EGYPT
+EL SALVADOR
+EQUATORIAL GUINEA
+ERITREA
+ESTONIA
+ETHIOPIA
+EUROPA ISLAND
+FALKLAND ISLANDS
+FAROE ISLANDS
+FIJI
+FINLAND
+FRANCE
+FRENCH GUIANA
+FRENCH POLYNESIA
+FRENCH SOUTHERN AND ANTARCTIC LANDS
+GABON
+GAMBIA, THE
+GAZA STRIP
+GEORGIA
+GERMANY
+GHANA
+GIBRALTAR
+GLORIOSO ISLANDS
+GREECE
+GREENLAND
+GRENADA
+GUADELOUPE
+GUAM
+GUATEMALA
+GUERNSEY
+GUINEA
+GUINEA-BISSAU
+GUYANA
+HAITI
+HEARD ISLAND AND MCDONALD ISLANDS
+HONDURAS
+HONG KONG
+HOWLAND ISLAND
+HUNGARY
+ICELAND
+INDIA
+INDONESIA
+IRAN
+IRAQ
+IRELAND
+ISRAEL
+ITALY
+JAMAICA
+JAN MAYEN
+JAPAN
+JARVIS ISLAND
+JERSEY
+JOHNSTON ATOLL
+JORDAN
+JUAN DE NOVA ISLAND
+KAZAKHSTAN
+KENYA
+KINGMAN REEF
+KIRIBATI
+KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF
+KOREA, REPUBLIC OF
+KUWAIT
+KYRGYZSTAN
+LAOS
+LATVIA
+LEBANON
+LESOTHO
+LIBERIA
+LIBYA
+LIECHTENSTEIN
+LITHUANIA
+LUXEMBOURG
+MACAU
+MACEDONIA, FORMER REPUBLIC OF
+MADAGASCAR
+MALAWI
+MALAYSIA
+MALDIVES
+MALI
+MALTA
+MAN, ISLE OF
+MARSHALL ISLANDS
+MARTINIQUE
+MAURITANIA
+MAURITIUS
+MAYOTTE
+MEXICO
+MICRONESIA
+MIDWAY ISLANDS
+MOLDOVA
+MONACO
+MONGOLIA
+MONTENEGRO
+MONTSERRAT
+MOROCCO
+MOZAMBIQUE
+NAMIBIA
+NAURU
+NAVASSA ISLAND
+NEPAL
+NETHERLANDS
+NETHERLANDS ANTILLES
+NEW CALEDONIA
+NEW ZEALAND
+NICARAGUA
+NIGER
+NIGERIA
+NIUE
+NO MANS LAND
+NORFOLK ISLAND
+NORTHERN MARIANA ISLANDS
+NORWAY
+OCEANS
+OMAN
+PAKISTAN
+PALMYRA ATOLL
+PANAMA
+PAPUA NEW GUINEA
+PARACEL ISLANDS
+PARAGUAY
+PERU
+PHILIPPINES
+PITCAIRN ISLANDS
+POLAND
+PORTUGAL
+PUERTO RICO
+QATAR
+REUNION
+ROMANIA
+RUSSIA
+RWANDA
+SAN MARINO
+SAO TOME AND PRINCIPE
+SAUDI ARABIA
+SENEGAL
+SERBIA
+SEYCHELLES
+SIERRA LEONE
+SINGAPORE
+SLOVAKIA
+SLOVENIA
+SOLOMON ISLANDS
+SOMALIA
+SOUTH AFRICA
+SOVIET UNION
+SPAIN
+SPRATLY ISLANDS
+SRI LANKA
+ST. HELENA
+ST. KITTS AND NEVIS
+ST. LUCIA
+ST. PIERRE AND MIQUELON
+ST. VINCENT AND THE GRENADINES
+SUDAN
+SURINAME
+SVALBARD
+SWAZILAND
+SWEDEN
+SWITZERLAND
+SYRIA
+TAIWAN
+TAJIKISTAN
+TANZANIA, UNITED REPUBLIC OF
+THAILAND
+TOGO
+TOKELAU
+TONGA
+TRINIDAD AND TOBAGO
+TROMELIN ISLAND
+TUNISIA
+TURKEY
+TURKMENISTAN
+TURKS AND CAICOS ISLANDS
+TUVALU
+UGANDA
+UKRAINE
+UNDERSEA FEATURES
+UNITED ARAB EMIRATES
+UNITED KINGDOM
+UNITED STATES
+URUGUAY
+UZBEKISTAN
+VANUATU
+VATICAN CITY
+VENEZUELA
+VIETNAM
+VIRGIN ISLANDS
+WAKE ISLAND
+WALLIS AND FUTUNA
+WEST BANK
+WESTERN SAHARA
+WESTERN SAMOA
+YEMEN
+YUGOSLAVIA
+ZAIRE
+ZAMBIA
+ZIMBABWE</span>
+                <span class="reporter-method-output">WebElement: [[FirefoxDriver: firefox on WINDOWS (be62e331-fab9-435b-805f-6a5b004d870b)] -> name: register] displayed and enabled</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SeleniumTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SeleniumTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mercury.testcases.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(http://newtours.demoaut.com/, Firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">registerUser</span>
+                <span class="method-start">30452 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">91482 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TrainingTestSuite]">
+  <parameter name="password" value="user"/>
+  <parameter name="browserName" value="Firefox"/>
+  <parameter name="userName" value="user"/>
+  <parameter name="url" value="http://demo.actitime.com/login.do"/>
+  <test name="Testing login on mercury application using Firefox">
+    <parameter name="browserName" value="Firefox"/>
+    <parameter name="url" value="http://demo.actitime.com/login.do"/>
+    <classes>
+      <class name="org.maven.LoginTest"/>
+    </classes>
+  </test> <!-- Testing login on mercury application using Firefox -->
+</suite> <!-- Failed suite [TrainingTestSuite] -->

@@ -45,7 +45,7 @@
 				<configuration>
 				<forkCount>0</forkCount>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/MercuryTestng.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/YuppTvTesting.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

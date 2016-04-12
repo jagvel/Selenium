@@ -1,3 +1,4 @@
+// Register test program
 package com.mercury.testcases;
 
 import org.openqa.selenium.support.PageFactory;
@@ -32,6 +33,7 @@ public class RegisterTest extends commonFunctions {
 		validateAndSelectOption(regPg.countryEle, "INDIA");
 		validateAndSelectOption(regPg.countryEle, "ANGOLA");
 
+		// click register button
 		clickEle(regPg.registerEle);
 	}
 

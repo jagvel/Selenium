@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="YuppTvTestSuite">
+	<parameter name="userName" value="user"></parameter>
+	<parameter name="password" value="user"></parameter>
+
+	<test name="Testing login on yupptv application using Firefox">
+		<parameter name="browser" value="Firefox"></parameter>
+		<parameter name="url" value="http://www.yupptv.in/#!/home/"></parameter>
+
+		<classes>
+			<class name="com.yupptv.testcases.LangTest" />
+		</classes>
+	</test>
+
+</suite>
